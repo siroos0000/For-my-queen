@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="" name="DialogBackground" style="width: 100%; height: 20%; background-color: rgba(48, 174, 191, 0); font-size: 60px; -unity-text-align: middle-center; color: rgb(255, 255, 255); top: 80%; background-size: 190% 100%;">
+        <ui:Button text="Click To Continue" name="ContinueButton" style="background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); width: 10%; height: 50px; top: 60%; font-size: 28px; left: 12%;"/>
+        <ui:Label text="" name="DialogText" language-direction="RTL" style="-unity-text-align: middle-right; -unity-text-generator: advanced; width: 88%; background-size: 100% 100%; font-size: 40px; left: 10%; bottom: 15%;"/>
+    </ui:Label>
+    <ui:Image source="" name="CharacterImage" style="height: 20%; background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgba(255, 254, 254, 0); width: 10%; top: 60%;">
+        <ui:Label text="" name="CharacterName" style="bottom: 30%; -unity-text-align: upper-center; font-size: 55px; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-outline-width: 1.5px; -unity-text-generator: advanced; -unity-text-outline-color: rgba(0, 0, 0, 0.639);"/>
+    </ui:Image>
+    <ui:Label text="" language-direction="RTL" name="GuideText" style="-unity-text-align: upper-right; right: 5%; bottom: 38%; color: rgb(255, 255, 255); font-size: 20px; -unity-text-generator: advanced; -unity-font-style: normal; -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 0.2px;"/>
+    <ui:Label text="" name="LoadingText" style="bottom: auto; font-size: 70px; -unity-text-generator: advanced; -unity-text-align: middle-center; color: rgb(255, 255, 255);"/>
+</ui:UXML>

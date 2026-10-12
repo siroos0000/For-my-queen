@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="" name="BlackScreenDialog" style="top: 38%; width: 100%; height: 20%; font-size: 70px; -unity-text-align: middle-center; color: rgb(255, 255, 255); -unity-text-generator: advanced; bottom: 50%;"/>
+    <ui:Label text="" name="DialogBackground" style="top: 59%; width: 138%; right: 262px; height: 20%; background-color: rgba(58, 255, 255, 0);">
+        <ui:Button text="Click to Continue" name="ToNextButton" style="width: 10%; height: 1%; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-color: rgba(188, 188, 188, 0); top: 80%; color: rgb(255, 255, 255); font-size: 20px; left: 22%; -unity-font-style: bold; -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 1px;"/>
+        <ui:Label text="" name="Dialog" style="top: 0%; width: 55%; left: 24%; color: rgb(255, 255, 255); font-size: 40px; -unity-text-generator: advanced; -unity-text-align: middle-right;"/>
+    </ui:Label>
+    <ui:Image name="ProfileImage" source="" style="width: 10%; height: 18%; top: 41%;">
+        <ui:Label text="" name="ProfileName" style="-unity-text-align: middle-center; top: auto; bottom: 39%; font-size: 35px; -unity-text-generator: advanced; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-outline-width: 0.5px; -unity-text-outline-color: rgb(0, 0, 0);"/>
+    </ui:Image>
+</ui:UXML>
