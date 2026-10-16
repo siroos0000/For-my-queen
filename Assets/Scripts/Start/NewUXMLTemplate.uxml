@@ -8,4 +8,9 @@
             <ui:Label text="" name="Name" language-direction="RTL" style="background-size: 10% 10%; width: 10%; height: 10%; font-size: 50px; top: auto; right: auto; left: 65%; -unity-text-outline-width: 0.5px; bottom: 50%; -unity-text-align: upper-right; -unity-text-outline-color: rgb(0, 0, 0); -unity-font-style: bold;"/>
         </ui:Image>
     </ui:Label>
+    <ui:Button text="" name="SettingButton" style="width: 4%; height: 8%; top: auto; bottom: 116%; right: auto; left: 1%; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-image: url(&quot;project://database/Assets/sources/pics/Icons/settings-icon-in-pixel-art-style-8894.png?fileID=2800000&amp;guid=aa92df5ba18768d4e9b40d10c00b6524&amp;type=3#settings-icon-in-pixel-art-style-8894&quot;);"/>
+    <ui:Label text="" name="SettingsPanel" style="top: auto; width: 30%; height: 59%; left: 38%; bottom: 116%; color: rgba(51, 62, 156, 0.694); background-color: rgba(55, 80, 190, 0.306);">
+        <ui:Button text="" icon-image="project://database/Assets/sources/pics/Icons/Unmute-Photoroom.png?fileID=2800000&amp;guid=915299d2b042b3540937e1305e39a214&amp;type=3#Unmute-Photoroom" name="MuteButton" style="background-size: 100% 100%; background-color: rgba(188, 188, 188, 0); width: 13%; height: 14%; left: 43%;"/>
+        <ui:Slider label="Slider" value="42" high-value="100" name="VolumeSlider" style="top: 34%; color: rgb(255, 255, 255); -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.467); font-size: 43px;"/>
+    </ui:Label>
 </ui:UXML>

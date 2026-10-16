@@ -85,7 +85,7 @@ public class TextManegment1 : MonoBehaviour
                 break;
             case 11:
                 Image.image = queen.texture;
-                Name.text = "؟؟؟؟";
+                Name.text = "فاطمه";
                 MainDialogText.text = "برید به جهنم برام مهم نیستید";
                 break;
             case 12:
@@ -107,7 +107,7 @@ public class TextManegment1 : MonoBehaviour
                 break;
             case 16:
                 Image.image = queen.texture;
-                Name.text = "؟؟؟؟";
+                Name.text = "فاطمه";
                 MainDialogText.text = "باید فکر کنم یه راهی پیدا بکنم حالم از رئیسشون بهم میخوره";
                 break;
             case 17:

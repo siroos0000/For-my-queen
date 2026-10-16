@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class NextDialog1 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public Part2TextMangment TextMangment;
+    public bool AnimationEnds = false;
     void Update()
     {
-        
+        if (AnimationEnds)
+        {
+            TextMangment.NextDialog();
+            enabled = false;
+        }
     }
 }

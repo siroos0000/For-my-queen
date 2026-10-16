@@ -7,4 +7,9 @@
     <ui:Image name="ProfileImage" source="" style="width: 10%; height: 18%; top: 41%;">
         <ui:Label text="" name="ProfileName" style="-unity-text-align: middle-center; top: auto; bottom: 39%; font-size: 35px; -unity-text-generator: advanced; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-outline-width: 0.5px; -unity-text-outline-color: rgb(0, 0, 0);"/>
     </ui:Image>
+    <ui:Button text="" name="SettingButton" style="top: -38%; width: 4%; height: 8%; left: 2%; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-image: url(&quot;project://database/Assets/sources/pics/Icons/settings-icon-in-pixel-art-style-8894.png?fileID=2800000&amp;guid=aa92df5ba18768d4e9b40d10c00b6524&amp;type=3#settings-icon-in-pixel-art-style-8894&quot;);"/>
+    <ui:Label text="" name="SettingsPanel" style="top: -28%; width: 33%; height: 56%; left: 36%; background-color: rgba(43, 82, 224, 0.561);">
+        <ui:Button text="" name="MuteButton" emoji-fallback-support="false" icon-image="project://database/Assets/sources/pics/Icons/Unmute-Photoroom.png?fileID=2800000&amp;guid=915299d2b042b3540937e1305e39a214&amp;type=3#Unmute-Photoroom" style="top: 10%; width: 17%; height: 21%; left: 43%; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);"/>
+        <ui:Slider label="Slider" value="42" high-value="100" name="VolumeSlider" style="top: 36%; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 42px; background-color: rgba(0, 0, 0, 0.439);"/>
+    </ui:Label>
 </ui:UXML>
